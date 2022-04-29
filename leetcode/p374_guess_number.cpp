@@ -1,3 +1,5 @@
+//author: gautam narayan
+
 class Solution {
 public:
     long guessNumber(int n) {
