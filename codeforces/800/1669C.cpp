@@ -14,23 +14,6 @@ int main() {
             int x{}; cin >> x;
             arr.push_back(x);
         }
-        /*
-        bool isAll = true;
-        for (auto x : arr){
-            if (x % 2 != 0) {
-                isAll = false;
-                break;
-            }
-        }
-        if (isAll == true) {
-            cout << "YES" << endl;
-            continue;
-        }
-        else {
-            cout << "NO" << endl;
-            continue;
-            }
-        */
         
         bool isAllEven = true;
         bool isAllOdd = true;
