@@ -12,10 +12,10 @@ int main() {
     double X{}, Y{};
     cin >> X >> Y;
 
-    if (static_cast<int>(X) % 5 != 0) 
-        cout << Y << "\n";
+    if ((static_cast<int>(X) % 5 != 0) or (Y - X - .50) < 0)
+        cout << fixed << setprecision(2) << Y << "\n";
     else 
-        cout << fixed << setprecision(2) << Y - X - .50;
+        cout << fixed << setprecision(2) << (Y - X - .50) << "\n";
 
     return 0;
 }
