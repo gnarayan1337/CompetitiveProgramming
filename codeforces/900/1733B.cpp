@@ -29,15 +29,15 @@ int main() {
 
         // if max(x, y) is > 0 and min(x, y) == 0 we can do a simple algorithm
         if (max(x, y) == (n - 1)) {
-            for (int i = 0; i < max(x, y); i++) { cout << 1 << "\n"; }
+            for (int i = 0; i < max(x, y); i++) { cout << 1 << " "; }
         }
         else if ((n - 1) % max(x, y) == 0) {
-            int counter = 1;
+            int counter = 2;
             for (int i = 0; i < ((n - 1) / max(x, y)); i++) {
                 for (int i = 0; i < max(x, y); i++) {
                     cout << counter << " ";
                 }
-                counter += max(x, y) + 1;
+                counter += max(x, y);
             }
         }
 
