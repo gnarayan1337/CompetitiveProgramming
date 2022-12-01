@@ -6,6 +6,7 @@
 
 using namespace std;
 
+int firstOcc(int arr[], int n, int key);
 int firstOcc(int arr[], int n, int key) {
 
     // base case
