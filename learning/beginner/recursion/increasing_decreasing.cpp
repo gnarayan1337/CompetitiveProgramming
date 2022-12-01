@@ -37,6 +37,7 @@ int main() {
     int n{};
     cin >> n;
     dec(n);
+    cout << "\n";
     inc(n);
 
     return 0;
